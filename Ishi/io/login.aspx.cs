@@ -15,7 +15,7 @@ namespace Ishi.io
         protected void Page_Load(object sender, EventArgs e)
         {
             cn = new ConnectionSQL();
-            TBusuario.Attributes.Add("placeholder", "Wilson");
+            TBusuario.Attributes.Add("placeholder", "Usuario");
             TBcontrasena.Attributes.Add("placeholder", "Contraseña");
             if (!Page.IsPostBack)
             {
